@@ -13,6 +13,10 @@ const (
 	FALSE = 0xc2
 	TRUE  = 0xc3
 
+	BIN8  = 0xc4
+	BIN16 = 0xc5
+	BIN32 = 0xc6
+
 	FLOAT  = 0xca
 	DOUBLE = 0xcb
 
@@ -27,6 +31,7 @@ const (
 
 	RAW16   = 0xda
 	RAW32   = 0xdb
+	ARRAY8  = 0xc4
 	ARRAY16 = 0xdc
 	ARRAY32 = 0xdd
 	MAP16   = 0xde
